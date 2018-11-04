@@ -68,6 +68,6 @@ mail = smtplib.SMTP('smtp.gmail.com', 587)
 
 mail.ehlo()
 mail.starttls()
-mail.login('jtgmf20180@gmail.com', 'Klaipedosuniversitetas')
-mail.sendmail('jtgmf20180@gmail.com', target_mail, content)
+mail.login('', '')
+mail.sendmail('', target_mail, content)
 mail.close()
